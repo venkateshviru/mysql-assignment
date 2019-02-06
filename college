@@ -1,0 +1,6 @@
+create database college;
+create table student (Id int(10) primary key,Name varchar(20),Department varchar(20),Year_of_passing int(10));
+insert into student values(1,'venky','cse',2020);
+insert into student values(2,'somu','cse',2020);
+insert into student values(3,'muthu','cse',2020);
+select*from student;
