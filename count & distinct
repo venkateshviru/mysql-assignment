@@ -1,0 +1,7 @@
+create database royal_labels;
+create table student (reg_no int(10) primary key,name varchar(20),age int(10));
+insert into student values(1,'venky',21);
+insert into student values(2,'somu',20);
+insert into student values(3,'muthu',21);
+select count(*)from student;
+select distinct(name)from student;
