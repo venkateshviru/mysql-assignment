@@ -1,0 +1,1 @@
+update Employee set address='Maharashtra' where name='komal';
