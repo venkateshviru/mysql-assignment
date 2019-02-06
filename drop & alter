@@ -1,0 +1,25 @@
+create database student;
+CREATE TABLE Royal
+  (
+  Name varchar(20) NOT NULL,
+  Age int(10) NOT NULL,
+  City varchar(20) NOT NULL
+  );
+create database employee;
+CREATE TABLE labels
+  (
+  Name varchar(20) NOT NULL,
+  Salary int(10) NOT NULL,
+  City varchar(20) NOT NULL
+  );
+create database production;
+CREATE TABLE product
+  (
+  Name varchar(20) NOT NULL,
+  Price int(10) NOT NULL,
+  id int(10) NOT NULL
+  );
+show tables;
+show databases;
+drop table Royal;
+alter table product drop id;
